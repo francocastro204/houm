@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap');
+$body-bg: #fff;
+$primary: #FF452B;
+
+$theme-colors: (
+  "info": tomato,
+  "danger": teal,
+  "primary": #FF452B,
+);
+
+body {
+  margin: 0;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.Header {
+  margin-bottom: 2em;
+}
+
+.footer {
+  margin: 4em 0 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mt-05 {
+  margin-top: 0.5em;
+};
+
+.mt-0 {
+  margin-top: 0em;
+}
+
+.mb-0 {
+  margin-bottom: 0em;
+};
+
+.image-maxWith {
+  max-width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+.card-product-list {
+  .image-product-list{
+    min-height: 300px;
+  }
+  .css-46bh2p-MuiCardContent-root.cardContent-product-list.cardContent-product-list {
+    padding: 10px;
+    .title-product-list {
+      color: #263238;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+header {
+  .header-logo {
+    display: flex;
+    svg {
+      align-self: center;
+    }
+    h2{
+      display: inline-block;
+      color: white;
+    }
+  }
+}
+
+.nunito-200 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+}
+.nunito-300 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+}
+.nunito-400 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+.nunito-700 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row.row:after,
+.flex-row.row:before {
+  display: flex;
+}
